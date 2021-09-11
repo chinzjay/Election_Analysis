@@ -28,7 +28,7 @@ The report includes analysis on candidate votes count turnout as well as breakdo
  - It is also evident that the candidate **Diana DeGette** won the election with a total of 272,892 votes which comprised of 73.8% of the total votes.
 
 ## Election Audit Summary
-Similar to the above results, the winner of any elections can be identified by reusing the code used for this analysis. Some of the enhancements that can be made to this code for detailed analysis includes:
+The Election Commission can modify this code to determine the winners of other elections as well. Some of the enhancements that can be made to this code for detailed analysis includes:
 - To identify the candidates with the highest vote count for the individual counties
 - To identify the counties with the lowest votes turnout. 
 - To identify the 'popular' candidates in each county
