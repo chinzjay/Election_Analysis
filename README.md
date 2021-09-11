@@ -4,13 +4,13 @@
 The purpose of this project is to determine the election results of a local Colorado congressional election using Python script. 
 
 ## Results 
-A Python script was written to determine the election results. The data from the CSV file(https://github.com/chinzjay/Election_Analysis/tree/main/Resources) was read, analyzed and then the output was printed to a text file(https://github.com/chinzjay/Election_Analysis/tree/main/analysis). Using for loops, conditional and logical operators, the winner of the election as well as the county with the higest turnout was determined. 
+A Python script was written to determine the election results. The data from the CSV file(https://github.com/chinzjay/Election_Analysis/tree/main/Resources) was read, analyzed and the final output was printed to a text file(https://github.com/chinzjay/Election_Analysis/tree/main/analysis). Using for loops, conditional and logical operators, the winner of the election as well as the county with the highest turnout was determined. 
 
 ![code screenshot](https://github.com/chinzjay/Election_Analysis/blob/main/code%20screenshot.PNG)
 |:--:|
 |Fig 1. Screenshot of the code|
 
-*Fig 1* shows the code snippet to calculate the vote percentage for individual counties and the logic to determine the winning county.
+*Fig 1* shows the code snippet to calculate the vote percentage for individual counties and the logic used to determine the winning county.
 Similarly, the county voter turnout and the percentage of votes for the individual counties were determined. 
 
 The report includes analysis on candidate votes count turnout as well as breakdown by counties.
@@ -27,8 +27,9 @@ The report includes analysis on candidate votes count turnout as well as breakdo
  - From the above results, we can see that the county **Denver** has the largest turnout with a total of 306,055 votes. It comprised of 82.8% ot the total votes turnout.
  - It is also evident that the candidate **Diana DeGette** won the election with a total of 272,892 votes which comprised of 73.8% of the total votes.
 
-## Election Audit Summary
-The Election Commission can modify this code to determine the winners of other elections as well. Some of the enhancements that can be made to this code for detailed analysis includes:
-- To identify the candidates with the highest vote count for the individual counties
-- To identify the counties with the lowest votes turnout. 
-- To identify the 'popular' candidates in each county
+## Summary & Proposal
+My proposal to the Election Commision would include the following feature enhancements. The script can be enhanced  
+- To identify the candidate with the highest vote count for the individual counties.
+- To identify the counties with the lowest vote turnout. 
+- To identify the 'popular' candidates in each county.
+- The same script can be reused to make it work for any scale of election results.
